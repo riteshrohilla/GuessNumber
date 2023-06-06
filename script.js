@@ -1,4 +1,3 @@
 'use strict';
 
-console.log(document.querySelector('.message').textContent);    
-?kg
+console.log(document.querySelector('.message').textContent);
