@@ -28,7 +28,7 @@ document.querySelector('.check').addEventListener('click', function () {
     if (!guess) {
         document.querySelector('.message').textContent = 'No number!';
     } else if (guess === secretNumber) {
-        document.querySelector('.message').textContent = 'Correct Number!!!'
+        document.querySelector('.message').textContent = 'Congrats! Correct Number!!!'
     } else if (guess > secretNumber) {
         if (score > 1) {
             document.querySelector('.message').textContent = 'Too High!'
