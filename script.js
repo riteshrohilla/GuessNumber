@@ -51,6 +51,9 @@ document.querySelector('.check').addEventListener('click', function () {
             document.querySelector('.score').textContent = 0;
         }
     }
+
+    if ()
+    else ()
     //     // when guess is too high
     // } else if (guess > secretNumber) {
     //     if (score > 1) {
