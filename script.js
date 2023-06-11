@@ -32,7 +32,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
         // when player wins
     } else if (guess === secretNumber) {
-        document.querySelector('.message').textContent = 'Congrats! Correct Number!!!'
+        // document.querySelector('.message').textContent = 'Congrats! Correct Number!!!'
         document.querySelector('.number').textContent = secretNumber;
 
 
