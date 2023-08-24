@@ -16,4 +16,5 @@ document.querySelector('.check').addEventListener('click', function () {
 
     document.querySelector('.message').textContent = 'Correct number!'
 
+    if (!guess)
 });
