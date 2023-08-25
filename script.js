@@ -30,5 +30,7 @@ document.querySelector('.check').addEventListener('click', function () {
         document.querySelector('.message').textContent = score;
     } else if (guess < secretNumber) {
         document.querySelector('.message').textContent = 'Guess is too low!'
+        score--;
+        document.querySelector('.message').textContent = score;
     }
 });
