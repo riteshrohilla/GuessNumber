@@ -34,3 +34,6 @@ document.querySelector('.check').addEventListener('click', function () {
         document.querySelector('.message').textContent = score;
     }
 });
+
+
+console.log('hello world!');
