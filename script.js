@@ -36,3 +36,4 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 
+console.log("hello world");
