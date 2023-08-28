@@ -36,4 +36,3 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 
-console.log("hello world"); console.log("hello world");
