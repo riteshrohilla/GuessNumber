@@ -50,6 +50,7 @@ document.querySelector('.check').addEventListener('click', function () {
         document.querySelector('.message').textContent = 'Start guessing...';
         document.querySelector('.score').textContent = score;
         document.querySelector('.number').textContent = '?';
+        document.querySelector('.value').textContent = 23;
         document.querySelector('body').style.backgroundColor = '#222';
         document.querySelector('.number').style.width = '15rem';
         document.querySelector('.guess').textContent = '-';
